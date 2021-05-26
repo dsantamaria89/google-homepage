@@ -7,4 +7,4 @@ Through this project, I hope demonstrate use of semantic HTML and basic CSS prin
 
 Any constructive criticism is  welcomed. I'm fairly new to the world of programming and github and looking to get better.
 
-Thank you for reading.
+Thank you for reading...
