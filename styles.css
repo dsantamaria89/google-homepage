@@ -69,6 +69,7 @@ nav {
 a {
 	text-decoration: none;
 }
+/* Top Nav bar styling------------------------------*/
 
 #nav-box-1, #nav-box-2, #nav-box-3 {
 	display: flex;
@@ -88,7 +89,7 @@ a {
 
 #blank-nav-space{
 	width: 40%;	
-
+	
 }
 
 
@@ -96,7 +97,7 @@ a {
 
 #nav-box-3 img {
 	margin-right: 1em;
-
+	
 }
 
 #nav-box-3 button {
@@ -107,4 +108,53 @@ a {
 	border-radius: .3em;
 	
 	border: none;
+}
+
+/*-----------------------------------------------------*/
+/* Main Content styling
+-------------------------------------------------------*/
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 1em 0;
+}
+
+#main-box-1 {
+	display: flex;
+	margin: 1em;
+	width: 60%;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid grey;
+	border-radius: 1em;
+}
+
+#main-box-1 img {
+	transform: scale(.9)
+}
+
+#main-box-1 input{
+	width:350px;
+	border: none;
+	outline: none;
+	
+}
+
+#main-box-2{
+	display: flex;
+}
+
+#main-box-2 button {
+
+	color: #5F6368;
+	width: 127px;
+	height: 36px;
+	background-color: #f8f8f8;
+	margin: 1em;
+	border-radius: .5em;
+	border: none;
+	
+
 }
