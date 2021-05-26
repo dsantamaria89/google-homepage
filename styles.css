@@ -58,4 +58,53 @@ body, input, button {
     color: #222;
 }
 
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	
+}
 
+
+a {
+	text-decoration: none;
+}
+
+#nav-box-1, #nav-box-2, #nav-box-3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#nav-box-1 a {
+	margin: 1em;
+	color:#222;
+}
+
+#nav-box-2 a {
+	margin: 1em;
+	color:#222;
+}
+
+#blank-nav-space{
+	width: 40%;	
+
+}
+
+
+
+
+#nav-box-3 img {
+	margin-right: 1em;
+
+}
+
+#nav-box-3 button {
+	width: 80px;
+	height: 36px;
+	color: white;
+	background-color:rgb(43, 125, 233);
+	border-radius: .3em;
+	
+	border: none;
+}
