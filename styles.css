@@ -161,8 +161,9 @@ main {
 #main-box-1 {
   display: flex;
   margin: 1em;
-  width: 60%;
-  justify-content: center;
+  padding-left: 1em;
+  width: 30em;
+  justify-content: flex-start;
   align-items: center;
   border: 1px solid #5f6368;
   box-shadow: 0.25em 0.25em 0.75em #5f6368;
@@ -174,7 +175,7 @@ main {
 }
 
 #main-box-1 input {
-  width: 25em;
+  width: 15em;
   height: 2.5em;
   margin: 0.25em;
   border: none;
