@@ -92,6 +92,12 @@ nav {
 a {
   text-decoration: none;
 }
+
+a:hover{
+  text-decoration: underline;
+}
+
+
 /* Top Nav bar styling------------------------------*/
 
 #nav-box-1,
@@ -120,6 +126,10 @@ a {
   margin-right: 1em;
 }
 
+#nav-box-3 img:hover {
+  border-bottom: 1px solid black;
+}
+
 #nav-box-3 button {
   width: 80px;
   height: 36px;
@@ -130,6 +140,10 @@ a {
   border: none;
 }
 
+#nav-box-3 button:hover {
+  text-decoration: underline;
+}
+
 /*-----------------------------------------------------*/
 /* Main Content styling
 -------------------------------------------------------*/
@@ -138,7 +152,9 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 15em 0;
+  padding-top: 10em;
+  padding-bottom: 3em;
+
   
 }
 
@@ -177,6 +193,10 @@ main {
   margin: 1em;
   border-radius: 0.5em;
   border: none;
+}
+
+#main-box-2 button:hover {
+  border: 1px solid #5f6368;
 }
 
 /*----------------------------------------------*/
